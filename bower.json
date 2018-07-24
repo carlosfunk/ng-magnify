@@ -1,7 +1,7 @@
 {
   "name": "ng-magnify",
-  "version": "0.0.1",
-  "homepage": "https://github.com/yonathanhalim/ng-magnify",
+  "version": "0.0.2",
+  "homepage": "https://github.com/carlosfunk/ng-magnify",
   "authors": [
     "Yonathan Halim <jotielim@gmail.com>"
   ],
@@ -18,8 +18,12 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "1.2.4",
-    "angular-mocks": "1.2.4",
-    "angular-route": "1.2.4"
-  }
+    "angular": "1.5.11",
+    "angular-mocks": "1.5.11",
+    "angular-route": "1.5.11"
+  },
+  "main": [
+    "src/js/ng-magnify.js",
+    "src/css/ng-magnify.css"
+  ]
 }
