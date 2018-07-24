@@ -11,10 +11,11 @@
       replace: true,
       template: '<div class="magnify-container" data-ng-style="getContainerStyle()">' +
                   '<div class="magnify-glass" data-ng-style="getGlassStyle()"></div>' +
-                  '<img class="magnify-image" data-ng-src="{{ imageSrc }}"/>' +
+                  '<img class="magnify-image" data-ng-src="{{ imageThumb }}"/>' +
                 '</div>',
       scope: {
         imageSrc: '@',
+        imageThumb: '@',
         imageWidth: '=',
         imageHeight: '=',
         glassWidth: '=',
