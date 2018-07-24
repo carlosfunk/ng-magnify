@@ -25,7 +25,7 @@ describe('ngMagnify Directive', function () {
 
   it('should replace the element with the correct content', function () {
     // compile the directive
-    var element = $compile('<ng-magnify image-src="img/nexus5.jpg"></ng-magnify>')($rootScope);
+    var element = $compile('<ng-magnify image-src="img/nexus5.jpg" image-thumb="img/nexus5.jpg"></ng-magnify>')($rootScope);
 
     // fire all the watches so the expression will be evaluated
     $rootScope.$digest();
